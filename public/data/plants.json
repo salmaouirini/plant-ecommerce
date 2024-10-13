@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Snake Plant",
+    "category": "Indoor Plants",
+    "image": "https://th.bing.com/th/id/R.042e45617d5341686758f0b37038bde8?rik=C2Owm8blVO%2fCag&pid=ImgRaw&r=0",
+    "price": 19.99,
+    "description": "An easy-to-care-for plant that improves air quality."
+  },
+  {
+    "id": 2,
+    "name": "Fiddle Leaf Fig",
+    "category": "Indoor Plants",
+    "image": "https://th.bing.com/th/id/R.ab46591c821e87f610db469c2630ded8?rik=FxZIG3aRrnIE%2bg&pid=ImgRaw&r=0",
+    "price": 29.99,
+    "description": "A popular houseplant known for its large, glossy leaves."
+  },
+  {
+    "id": 3,
+    "name": "Spider Plant",
+    "category": "Indoor Plants",
+    "image": "https://m.media-amazon.com/images/I/61PPYUoc2aL.jpg",
+    "price": 14.99,
+    "description": "A resilient plant that produces offshoots or 'pups'."
+  },
+  {
+    "id": 4,
+    "name": "Marigold",
+    "category": "Flowering Plants",
+    "image": "https://th.bing.com/th/id/R.6166de37ee1c92821e97d70cf94c3bde?rik=aPiy8OB7AdV35w&pid=ImgRaw&r=0",
+    "price": 9.99,
+    "description": "Bright and cheerful flowers that bloom in various colors."
+  },
+  {
+    "id": 5,
+    "name": "Rose",
+    "category": "Flowering Plants",
+    "image": "https://garden.org/pics/2021-02-02/AnnKNCalif/8851e8.jpg",
+    "price": 14.99,
+    "description": "Classic flowers known for their beauty and fragrance."
+  },
+  {
+    "id": 6,
+    "name": "Basil",
+    "category": "Herbs",
+    "image": "https://th.bing.com/th/id/OIP.SgYXBDO4N4iRbhEeSVT1fwHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain",
+    "price": 4.99,
+    "description": "A popular herb used in cooking and garnishing."
+  },
+  {
+    "id": 7,
+    "name": "Aloe Vera",
+    "category": "Succulents",
+    "image": "https://i0.wp.com/deepgreenpermaculture.com/wp-content/uploads/2020/06/img_20200531_143632-1.jpg?resize=620%2C620&is-pending-load=1#038;ssl=1",
+    "price": 12.99,
+    "description": "Known for its medicinal properties, it's easy to care for."
+  },
+  {
+    "id": 8,
+    "name": "Cactus",
+    "category": "Cacti",
+    "image": "https://th.bing.com/th/id/R.e6f5cb53f36b3bcb097e8d18f561bac1?rik=oJp50Uv6D28xUw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f4%2f4e%2fDwarves_cactus.JPG&ehk=cPl1w0%2bBCNUFzKXsyjpbD18Vrko5bvYthKW0yUehgqs%3d&risl=1&pid=ImgRaw&r=0",
+    "price": 8.99,
+    "description": "Low-maintenance plants that thrive in dry conditions."
+  },
+  {
+    "id": 9,
+    "name": "Boston Fern",
+    "category": "Ferns",
+    "image": "https://images.saymedia-content.com/.image/t_share/MTc0MzUzOTcxODk1NDEyMzU4/how-to-grow-a-boston-fern-sword-fern-indoors-or-outdoors.jpg",
+    "price": 19.99,
+    "description": "A lush, feathery plant that prefers humidity."
+  },
+  {
+    "id": 10,
+    "name": "Lemon Tree",
+    "category": "Outdoor Plants",
+    "image": "https://cdn.mos.cms.futurecdn.net/WMYr2CAVooYqwbQqg2LjSN.jpg",
+    "price": 49.99,
+    "description": "A fruit-bearing tree that requires full sun and regular watering."
+  },
+  {
+    "id": 11,
+    "name": "Pothos",
+    "category": "Indoor Plants",
+    "image": "https://th.bing.com/th/id/OIP.qJrYwVxy9WecPFc2eeNVzgHaHa?rs=1&pid=ImgDetMain",
+    "price": 15.99,
+    "description": "A hardy vine that can thrive in low light and purifies the air."
+  },
+  {
+    "id": 12,
+    "name": "Jade Plant",
+    "category": "Succulents",
+    "image": "https://www.gardeningknowhow.com/wp-content/uploads/2010/01/jade-plant-1-1024x768.jpg",
+    "price": 18.99,
+    "description": "A popular succulent known for its round, thick leaves."
+  },
+  {
+    "id": 13,
+    "name": "Peace Lily",
+    "category": "Indoor Plants",
+    "image": "https://static-communitytable.parade.com/wp-content/uploads/2015/02/Peace_Lily-e1425049408466.jpg",
+    "price": 22.99,
+    "description": "Known for its beautiful white blooms and air-purifying qualities."
+  },
+  {
+    "id": 14,
+    "name": "Bougainvillea",
+    "category": "Outdoor Plants",
+    "image": "https://th.bing.com/th/id/OIP.FlX6-JShCDdalHuqxZldrAHaFj?rs=1&pid=ImgDetMain",
+    "price": 24.99,
+    "description": "A vibrant flowering plant that thrives in warm climates."
+  },
+  {
+    "id": 15,
+    "name": "Mint",
+    "category": "Herbs",
+    "image": "https://www.eatsomethingsexy.com/wp-content/uploads/2010/10/mint.jpg",
+    "price": 5.99,
+    "description": "A fragrant herb commonly used in cooking and drinks."
+  },
+  {
+    "id": 16,
+    "name": "Dracaena",
+    "category": "Indoor Plants",
+    "image": "https://th.bing.com/th/id/OIP.EjgCoe5sDMbcJE8CcqRiqgHaFj?rs=1&pid=ImgDetMain",
+    "price": 29.99,
+    "description": "A striking plant with long, arching leaves."
+  },
+  {
+    "id": 17,
+    "name": "Japanese Maple",
+    "category": "Trees",
+    "image": "https://th.bing.com/th/id/R.3609389ac22ffb90ad5ad82f85f8b138?rik=Bas7bZSFMB7H7Q&pid=ImgRaw&r=0",
+    "price": 59.99,
+    "description": "A small tree known for its stunning foliage."
+  },
+  {
+    "id": 18,
+    "name": "Ficus Bonsai",
+    "category": "Bonsai",
+    "image": "https://th.bing.com/th/id/OIP.oaeqZEfuUMfToNPIlpPjAQHaHa?rs=1&pid=ImgDetMain",
+    "price": 39.99,
+    "description": "A miniature tree perfect for indoor decoration."
+  },
+  {
+    "id": 19,
+    "name": "Pansy",
+    "category": "Flowering Plants",
+    "image": "https://th.bing.com/th/id/OIP.e0vlOtLzbnbWQsCm9pLduQAAAA?rs=1&pid=ImgDetMain",
+    "price": 7.99,
+    "description": "Colorful flowers that bloom in various seasons."
+  },
+  {
+    "id": 20,
+    "name": "Arecaceae",
+    "category": "Tropical Plants",
+    "image": "https://thumbs.dreamstime.com/b/palm-tree-arecaceae-24863781.jpg",
+    "price": 35.99,
+    "description": "A family of tropical plants known for their tall, feathery fronds."
+  }
+]

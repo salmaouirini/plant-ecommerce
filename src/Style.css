@@ -1,0 +1,368 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Adjust the weight as needed */
+}
+
+/* You can customize specific weights or italics where necessary */
+.roboto-mono-light {
+  font-weight: 100;
+}
+
+.roboto-mono-bold {
+  font-weight: 700;
+}
+
+.roboto-mono-italic {
+  font-style: italic;
+}
+body, html {
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #638964;
+  color: white;
+  margin-top: 0;
+  width: auto;
+  
+}
+.logo{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.cartIcon {
+    font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Make the V larger and green */
+.big-v {
+  font-size: 45px;
+  color: #316433; /* Green color for the V */
+  margin-right: 10px;
+}
+
+/* Ensure the text lines are stacked vertically */
+.text-lines {
+  display: flex;
+  flex-direction: column;
+  line-height: 1; /* Adjust line height to remove extra spacing */
+}
+
+/* Style the smaller text */
+.small-text {
+  font-size: 22px;
+  color: #c8fcca;
+  margin-left: -10px; /* Shift the text slightly left to align with the V */
+}
+/*************************************************************/
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh;
+  object-fit: cover; /* Ensures the video covers the entire background */
+  z-index: -1; 
+}
+
+/* Content overlay on top of the video */
+.home-container {
+  min-height: 100vh;
+  color: white;
+}
+
+/* Styling for text and button */
+.home-content {
+  position: relative;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #638964;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.start-button:hover {
+  background-color: #4e9451;
+}
+
+.home-content h2 {
+  font-size: 60px;
+  font-weight: bolde;
+}
+
+.home-content p {
+  font-size: 30px;
+  font-weight: 350;
+}
+/*******************************************************************/
+/* Plants Page Styling */
+
+.plants-container {
+  display: flex;
+  padding: 1rem;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 1rem;
+  border-right: 3px solid #ddd;
+  color: white;
+}
+.sidebar h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.sidebar li {
+  text-decoration: none;
+  cursor: pointer; 
+  padding: 10px;
+}
+.sidebar ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+}
+.fa-leaf {
+  color: #74be77;
+}
+
+.search-bar {
+  width: 60%; 
+  padding: 10px; 
+  margin: 0 auto 20px; 
+  display: block; 
+  border-radius: 15px;
+  background-color: transparent;
+  border-color: #ffffff;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+.search-bar::placeholder {
+  color:#ffffff ;
+  font-size: 18px; 
+  font-weight: 500;
+}
+.search-bar:hover {
+  transform: scale(1.05);
+}
+
+.plants-content {
+  width: 80%;
+  padding: 1rem;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-list img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+.card-container {
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
+.card-container a {
+  text-decoration: none;
+  color: inherit; 
+}
+.card-container h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
+.card-container p {
+  color: white; 
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+
+.product-image {
+  width: 100%;
+}
+
+.add-button {
+  padding: 10px;
+  background-color: #638964;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.add-button:hover {
+  background-color: #4e9451;
+}
+
+/**********************************************************/
+.cart-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-container h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.cart-container p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.cart-container h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.cart-item {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 3px solid #ddd;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.cart-item-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 60px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.quantity-input:hover,
+.quantity-input:focus {
+  border-color: #4caf50;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cart-item-actions button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.2s ease;
+}
+
+.cart-item-actions button:hover {
+  color: darkred;
+}
+
+/***********************************************************/
+
+.details-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px; /* Limit the width */
+  margin: 20px auto; /* Center the container */
+}
+
+.details-container h1 {
+  font-size: 40px;
+  font-weight: 700; /* Bold font weight */
+  color: white; /* Darker color for the title */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.details-container img {
+  width: 75%; /* Full width for responsiveness */
+  height: 55%; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below image */
+}
+
+.details-container p {
+  font-size: 18px;
+  color: white; /* Darker color for description */
+  margin-bottom: 15px; /* Space below paragraphs */
+}
+
+.details-container p:last-of-type {
+  font-weight: bold; /* Make price bold */
+  font-size: 20px; /* Slightly larger font size for price */
+  color: white;
+   /* Green color for price */
+}
