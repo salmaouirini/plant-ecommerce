@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Style.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import '../Style.css';
 
 
 const Navbar = () => {
