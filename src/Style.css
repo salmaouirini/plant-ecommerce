@@ -366,3 +366,134 @@ body, html {
   color: white;
    /* Green color for price */
 }
+
+
+.checkout-btn {
+  background-color: transparent;
+  padding: 10px;
+  border: 3px solid white;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+
+}
+.checkout-btn:hover {
+  transform: scale(1.05);
+  background-color: #638964;
+}
+
+
+/* General form container styling */
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 150px auto;
+  padding: 20px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Label and input styles */
+.checkout-form label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.checkout-form input::placeholder,
+.checkout-form textarea::placeholder {
+  color: white;
+  opacity: 1; /* Ensures the color remains at full opacity */
+}
+
+/* Input focus state */
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+  border-color: #4CAF50;
+}
+
+/* Button styling */
+.checkout-form button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* Button hover state */
+.checkout-form button:hover {
+  transform: scale(1.05);
+  background-color: #638964;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .checkout-form {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .checkout-form label {
+    font-size: 16px;
+  }
+
+  .checkout-form input,
+  .checkout-form textarea {
+    font-size: 14px;
+  }
+
+  .checkout-form button {
+    font-size: 16px;
+  }
+}
+
+
+.alert {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.alert p {
+  margin: 0;
+}
+
+/* Optional: Add a fade-out animation to hide the alert after a few seconds */
+.alert.fade-out {
+  animation: fadeOut 5s forwards; /* 5 seconds duration */
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

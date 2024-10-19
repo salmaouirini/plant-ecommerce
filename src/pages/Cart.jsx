@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
 import Navbar from '../Components/Navbar';
 import '../Style.css'; // Make sure your CSS is imported
@@ -46,7 +47,12 @@ const Cart = () => {
         ))
       )}
       <h2 className="total-price">Total: ${calculateTotal()}</h2>
-    </div></div>
+    </div>
+    <Link to="/checkout">
+      <center>
+      <button className="checkout-btn">Proceed to Checkout</button></center>
+    </Link>
+    </div>
   );
 };
 
