@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import Navbar from '../Components/Navbar';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../Components/ProductCard';
+
 import '../Style.css'; // Ensure to import your CSS file
 
 const Plants = () => {
